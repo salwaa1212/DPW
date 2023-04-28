@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Internal CSS : Kode CSS yang ditulis di dalam tag <style> -->
+        <style>
+            .sosmed{
+                margin: auto;
+                width: 400px;
+                height: 50px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .sosmed a{
+                width: 37px;
+                height: 37px;
+                font-size: 17px;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                color: #eee;
+                cursor: pointer;
+                margin-right: 20px;
+                background-color: rgba(255, 255, 255, 0.1);
+                margin-bottom: 35px;
+            }
+
+            .sosmed a:hover{
+                transform: scale(1.1);
+                background: hotpink;
+                transition: .4s;
+            }
+        </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-s"></i>
+                </div>
+
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="cv.html" target="_blank" rel="no-referrer">CV</a></li>
+                        <li><a class="active" href="#">About Me</a></li>
+                        <li class="btn"><a href="#">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="panel-intro">
+                <div class="intro1">About Me</div>
+            </div>
+            <div class="profile-img"></div>
+            <!-- Inline CSS : Kode CSS yang ditulis langsung pada atribut style di elemen HTML. -->
+            <div style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); padding: 20px; color: white; background-color: hotpink;
+            border-radius: 5px; margin: 35px 180px 35px 180px" class="aboutme">
+                <p>Hello! Introduce my name is Salwa Madihah Syahnevi. I am the only daughter. 
+                    I am a child who is very close to my father. Father is a favorite figure for me. 
+                    I was a child who was very difficult to regulate emotions. If I don't like something, I don't like it.
+                    Since childhood I have various goals. There are so many goals that I dream of in the future. 
+                    Slowly, some of the ideals have begun to materialize. Alhamdulillah!</p>
+            </div>
+                
+            <div class="sosmed">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
